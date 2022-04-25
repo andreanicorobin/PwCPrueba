@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pwc</title>
+  </head>
+  <body>
+
+    <!--================================================ -->
+    <!--ENCABEZADO -->
+    <!--================================================ -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-1 bg-white" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="mobile-search-btn " alt="Search" src="./img/pwclogo.jpg">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Industrias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Publicaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotroos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PwC Insights</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button aria-expanded="false" style="border: none; background-color: transparent;" class="search-hide levelOneLink" 
+              type="buttom">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--=============================================-->
+    <!--SLIDER DE IMAGENES-->
+    <!--=============================================-->
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/slide1.jpg" class="d-block w-100" alt="slide1">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide2.gif" class="d-block w-100" alt="slide2">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide3.jpg" class="d-block w-100" alt="slide3">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide4.jpg" class="d-block w-100" alt="slide4">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide5.jpg" class="d-block w-100" alt="slide5">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide6.jpg" class="d-block w-100" alt="slide6">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide7.jpg" class="d-block w-100" alt="slide7">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!--================================================ -->
+    <!--INTRO -->
+    <!--================================================ -->
+
+      <section class="w-50 mx-auto text-center pt-5" id="intro">Haz clic para conocer más 
+          <h1 class="p-3 fs-2 border-top border-3 ">
+              
+            </h1>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+            </div>
+      </section>
+
+    <!--================================================ -->
+    <!--NOTICIAS -->
+    <!--================================================ -->
+
+    <section class="container-fluid">
+         <div class="row w-75 mx-auto my-5 servicio-fila">
+             <div class="col-lg-4 col-md-4 col-sm-12 d-flex my-5 icono-wrap">
+                 <img src="./img/contain1.jpg" alt="" class="contain1" width="180" height="160">
+                 <div>
+                     <h3 class="fs-5 mt-4 px-4">Léelo aquí ></h3>
+                     <p class="px-4">COP26, la cumbre de la unión y la materialización de las acciones para enfrentar el cambio climático</p>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/contain2.jpg" alt="" class="contain2" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Léelo aquí ></h3>
+                    <p class="px-4">Los negocios familiares tienen la oportunidad de liderar en los factores ESG</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-start my-5 ">
+                <img src="./img/contain3.jpeg" alt="" class="contain3" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Léelo aquí ></h3>
+                    <p class="px-4">Beneficios tributarios establecidos en los Artículos 45, 46 y 47 de la Ley 2155 de septiembre 14 de 2021.</p>
+                </div>
+            </div>
+         </div>
+    </section>
+    
+    <!--================================================ -->
+    <!--PwC Insights -->
+    <!--================================================ -->
+
+    <section id="pwcInsights" class="page-section page-section--col-light-grey bg-grey">   
+        <div class="parsys sectionpar">
+            <div class="parsys_column cq-colctrl-default ">
+                <div class="parsys_column cq-colctrl-default-c0">
+                    <div class="text parbase section">
+                        <div class="text-component" data-emptytext="Edit Text">
+                            <h2>Thought Leaderships PwC Colombia</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-50 m-auto text-center" id="#equipo">
+            <h1 class="mb-5 fs-2">PwC Insights <span class="text-primary"></span></h1>
+            <p class="fs-4">Información valiosa para personas y empresas valiosas. Queremos que conozcas de primera mano los desafíos y retos que enfrenta hoy el mundo. Consulta lo último en tendencia para el crecimiento de las empresas, los sectores y la sociedad.</p>
+        </div>
+
+        </div>
+   </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--================================================ -->
+    <!--SOCIAL MEDIA -->
+    <!--================================================ -->
+
+    <section id="twocol" class="black page-section page-section--col-white fullwidth  " style="height: auto ">
+        <div class="parsys sectionpar"> 
+            <div class="socialfollow section">
+                <div class="socialfollow" class="socialfollowInner">
+                    <span>Síguenos PwC Colombia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--================================================ -->
+    <!--ACERCA DE NOSOTROS -->
+    <!--================================================ -->
+
+    <section>
+        <div class="w-50 m-auto text-center" id="#equipo">
+            <p class="fs-4">Somos una comunidad que da soluciones, combinando la inteligencia humana, la experiencia y la innovación tecnológica para entregar resultados sostenibles y construir confianza.</p>
+        </div>
+        <div class="my-5 text-center">
+            <img class="rounded float-end my-5" src="./img/equipo.jpg" alt="equipo">
+        <div>
+        <div id="local">
+            <div class="mapa">
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+  </body>
+</html>
