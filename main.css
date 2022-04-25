@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+/*======================= MENU =====================================*/
+
+#menu li > a {
+    font-size:18px;
+    font-weight:bold;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size:18px;
+    font-weight:bolt;
+    background-color: transparent;
+}
+
+/*======================= SLIDER DE IMAGENES ========================*/
+
+.carousel-inner {
+    max-height: 39rem;
+} 
+
+
+/*======================= SOCIAL MEDIA ======================*/
+.page-section.page-section--col-white {
+    background: #fff;
+}
+
+section, .page-section {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+section {
+    table-layout: fixed;
+}
+
+/*======================= MEDIA QUERYS PANTALLA ======================*/
+
+@media (max-width:768px) {
+    #intro, #equipo {
+        width:90% !important;
+    }
+}
+
+/*======================= MEDIA QUERYS PANTALLA EXTRA ======================*/
+
+@media (max-width: 576px) {
+    .icono-warp{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
